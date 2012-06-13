@@ -1,4 +1,4 @@
-# Rails application templates for cancan testing
+# Rails application templates for CanCan testing
 
 The title says it all. This is just a couple of templates to create
 quick projects with CanCan only for testing purposes. I hope to make it
@@ -39,7 +39,7 @@ rails new cancan-test --skip-bundle -m https://raw.github.com/andhapp/rails-appl
 Please run the following command:
 
 <pre>
-rails new cancan-test --skip-active-record --skip-bundle -m https://raw.github.com/andhapp/rails-application-templates-for-cancan-testing/master/activerecord-application-template.rb 
+rails new cancan-test --skip-active-record --skip-bundle -m https://raw.github.com/andhapp/rails-application-templates-for-cancan-testing/master/mongoid-application-template.rb 
 </pre>
 
 
