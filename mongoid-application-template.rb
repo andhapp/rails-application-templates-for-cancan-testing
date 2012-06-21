@@ -24,7 +24,12 @@ puts        '-'*80, ''; sleep 1
 local_cancan_path = ask("If you want to use local checked out repository for CanCan, then please enter the path to it, else leave blank?")
 
 if local_cancan_path == ""
-  gem "cancan"
+  version = ask("What version of CanCan?")
+  if version == ""
+    gem "cancan"
+  else 
+    gem "cancan", version
+  end
 else
   gem "cancan", path: "#{local_cancan_path}"
 end
